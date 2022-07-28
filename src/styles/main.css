@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+a.active{
+    color: red;
+}
+ul{
+    margin: 10px 20px;
+    display: flex;
+    list-style-type: none;
+}
+.todo_item{
+    display: flex;
+    padding: 10px 0;
+}
+.todo_item > h3{
+    padding-right: 10px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
